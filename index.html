@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  
+  <title>Guia Comercial - Brasília </title>
+</head>
+
+<body>
+
+  <!-- NAV - TOPO -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-default" style="background-color: #fdfdfd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler btn-template-outlined" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Empresas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-dark " type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- FIM NAV - TOPO -->
+
+  <!-- BANNER CAROUSEL -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/banner3.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/banner3.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/banner3.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>
+  <!-- FIM BANNER - CAROUSEL -->
+
+  <!-- INICIO DO CORPO - GRID -->
+  <div class="container">
+    <div class="row row-align">
+      <div class="txt1 col-lg 12 col-xs 12 col-md 12 col-sm 12 ">
+        <h3 class="tilt1">QUEM SOMOS?</h3>
+        Somos uma empresa que tem como missão aproximar consumidores de produtos, serviços e marcas. Para
+        isso, oferece um serviço de excelência em gestão de investimentos de publicidade para os produtos que
+        comercializa. São sites de busca e produtos segmentados, preparados para facilitar ao máximo a aproximação entre
+        clientes e anunciantes. <br>
+        O objetivo da empresa é oferecer a melhor gestão e consultoria de publicidade para cada cliente, promovendo o
+        comercio local, criando uma ponte entre os estabelecimentos e os clientes, aumentando a visibilidade e o
+        movimento do comercio local.
+
+        <div class="btn1 col-lg 12 col-xs 12 col-md 12 col-sm 12"><button class="btn btn-danger">DIVULGUE SUA
+            EMPRESA!</button></div>
+      </div>
+      <div class="imagem col-lg 5 col-xs 5 col-md 12 col-sm 12">
+        <img src="img/quem_somos.jpg" class="img1">
+      </div>
+    </div>
+  </div>
+
+  <!--<div class="txt2 col-lg 12 col-xs 12 col-md 12 col-sm 12">
+    <h3 class="tilt1">EMPRESAS DESTAQUES</h3>
+  </div>
+
+   <div class="container">
+    <div class="row">
+      <div class="imagem2 col-lg 5 col-xs 5 col-md 12 col-sm 12">
+        <img src="img/lg_empresa1.jpg" class="img2">
+      
+        <div class="btn2 col-lg 12 col-xs 12 col-md 12 col-sm 12">
+          <button class="btn btn-primary">ACESSE</button>
+        </div>
+    </div>
+    </div>
+  </div> -->
+
+  <!-- INICIO DO FLEXBOX -->
+
+  <h3 class="tilt1">EMPRESAS DESTAQUES</h3>
+  <div class="flexy container">
+    <div class="row">
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+      <div class="col-sm 12">
+        <div class="">
+          <img src="img/lg_empresa1.jpg" class="fimg" alt="">
+        </div>
+        <div class="btn3 btn btn-dark" href="#" role="button">ACESSE</a></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
