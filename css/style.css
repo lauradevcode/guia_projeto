@@ -32,12 +32,22 @@ color: rgb(97, 92, 92);
     color: #f86611;
 }
 
+/*
 .navbar-nav>li>a {
     color: rgb(97, 92, 92);
     text-align: center;
 }
 
 .navbar-nav>li:hover>a {
+    color: #f86611;
+}*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(97, 92, 92);
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
     color: #f86611;
 }
 
