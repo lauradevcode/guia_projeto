@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
 }
 
 .navbar .navbar-nav {
@@ -11,8 +16,8 @@
     font-weight: 400;
     line-height: 1.5;
 }
-.navbar-toggler {
-    background-color: rgb(60, 63, 63);
+.navbar .navbar-toggler {
+    color: rgb(0, 0, 0);
 }
 .btn-template-outlined {
     background: none;
@@ -48,12 +53,9 @@ color: rgb(97, 92, 92);
     align-content: center;
     text-align: center;
 }
-.txt1{
-    text-align: justify;
-}
+
 .tilt1 {
     text-align: center;
-    
 }
 
 .btn1 {
@@ -75,3 +77,75 @@ color: rgb(97, 92, 92);
     height: 100%;
     padding: 5%;
 }
+
+/*Contatos*/
+section.bar{
+    text-align: left;
+}
+
+section.bar .heading span{
+    display: block;
+    width: 100px;
+    border: 1px solid #38a7bb;
+    float: left;
+}
+
+section.bar p.lead{
+    text-align: left;
+    margin: 30px 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: black;
+}
+
+section.bar form{
+    margin: 30px 0;
+}
+
+section.bar form .form-group{
+    margin: 10px 0;
+    text-align: left;
+}
+section.bar form .form-group label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+section.bar form .form-group input[type="text"],
+section.bar form .form-group input[type="email"],
+section.bar form .form-group input[type="tel"],
+section.bar form .form-group select,
+section.bar form .form-group textarea{
+   margin-top: 8px;
+}
+
+.g-recaptcha{
+    margin: 10px 0;
+}
+
+button.btn-primary{
+    background-color: #38a7bb;
+    border: 1px solid #38a7bb;
+    border-radius: 0;
+}
+
+button.btn-primary:hover{
+    background-color: #38a7bb;
+    border: 1px solid #38a7bb;
+}
+
+a.btn-success{
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 0;
+    transition: .5s ease-in-out;
+}
+
+a.btn-success:hover{
+    background-color: #208537;
+    border: 1px solid #208537;
+}
+/*EndContatos*/
