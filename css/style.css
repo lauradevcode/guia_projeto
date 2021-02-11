@@ -31,13 +31,13 @@
     text-align: center;
     font-weight: 600;
     line-height: 1.5;
-    color: #212529;
+    color: #16181a;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #af490d;
+    color: #f86611;
 }
 
 /*
@@ -58,7 +58,10 @@
     align-content: center;
     text-align: center;
 }
-
+.sob{
+    background: url(../img/sobre.jpg) ; 
+    margin-top: 2%;
+}
 .flexy {
     justify-content: center;
     align-content: center;
@@ -66,15 +69,20 @@
 }
 
 .tilt1 {
+    margin-top: 3%;
     text-align: center;
+    color: #fff;
 }
 
 div.txt1 {
-    text-align: left;
+    text-align: center;
     margin-bottom: 5%;
+    
 }
 div.txt1 p{
     font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 1.4em;
 }
 
 
@@ -89,8 +97,8 @@ div.txt1 p{
 }
 
 .bt1:hover {
-    background-color: #030303;
-    color: aliceblue;
+    background-color: #fffbfb;
+    color: #ff6207;
 }
 
 .btn3 {
