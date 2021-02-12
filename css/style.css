@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Muli;
+	src: url(../fonts/Muli/Muli.ttf)
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -80,12 +85,12 @@ div.txt1 {
     
 }
 div.txt1 p{
-    font-family: 'Roboto Slab', serif;
+    font-family: Muli, serif;
     color: #fff;
     font-size: 1.4em;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-
-
 
 .btn {
     background-color: #ff6207;
@@ -138,9 +143,8 @@ section.bar p.lead {
     text-align: left;
     margin: 30px 0;
     font-weight: 300;
-    letter-spacing: 1px;
     color: black;
-    font-family: 'Roboto Slab', serif;
+    font-family: Muli, serif;
 }
 
 section.bar form {
