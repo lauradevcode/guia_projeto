@@ -1,6 +1,6 @@
 @font-face {
-	font-family: Muli;
-	src: url(../fonts/Muli/Muli.ttf)
+    font-family: Muli;
+    src: url(../fonts/Muli/Muli.ttf)
 }
 
 * {
@@ -27,11 +27,12 @@
 .navbar .navbar-toggler {
     color: rgb(0, 0, 0);
 }
+
 .navbar-brand :hover {
     color: #f86611;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     font-size: 1em;
     text-align: center;
     font-weight: 600;
@@ -41,52 +42,97 @@
     text-transform: uppercase;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: #f86611;
 }
 
-/*
-.navbar-nav>li>a {
-    text-align: center;
-    font-weight: 600;
-    line-height: 1.5;
-    color: #212529;
+.imgsB {
+    filter: brightness(99%);
 }
 
-.navbar-nav>li:hover>a {
-    color: #ff6207;
-}*/
-.imgsB{
-    filter: brightness(88%);
-}
-
-.tcarou{
-    text-shadow: black 0.1em 0.1em 0.2em; 
+.tcarou {
+    text-shadow: rgb(153, 142, 142) 0.1em 0.1em 0.7em;
     z-index: 999;
     margin-bottom: 15%;
     font-family: Muli, serif;
 }
-.txtcarou{
-text-shadow: black 0.1em 0.1em 0.2em;
+
+.txtcarou {
+    text-shadow: rgb(146, 133, 133) 0.1em 0.1em 0.2em;
     z-index: 999;
     font-weight: bolder;
     font-family: Muli, serif;
     font-size: 22px;
 }
+
 .container {
     margin-top: 2%;
     justify-content: center;
     align-content: center;
     text-align: center;
 }
-.sob{
-    background: url(../img/sobre.jpg) ; 
-    margin-top: 5%;
-}
-.flexy {
-    justify-content: center;
-    align-content: center;
+
+.flexy2 {
+    margin-left: 7%;
     text-align: center;
+}
+
+.flexy {
+    margin: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .tcarou {
+        text-shadow: rgb(141, 135, 135) 0.1em 0.1em 0.7em;
+        z-index: 999;
+        font-family: Muli, serif;
+        font-size: 2em;
+    }
+    .container {
+        margin-top: 2%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .flexy2 {
+        margin-left: 16%;
+        text-align: center;
+    }
+    .flexy {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .tcarou {
+        text-shadow: rgb(141, 135, 135) 0.1em 0.1em 0.7em;
+        z-index: 999;
+        font-family: Muli, serif;
+    }
+    .tilt1 {
+        font-size: 1.9em;
+    }
+    .txt1 {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 991.98px) {
+    ...
+}
+
+@media (max-width: 1199.98px) {
+    ...
+}
+
+.imgc {
+    width: 200px!important;
+    height: 210px!important;
+}
+
+.sob {
+    background: url(../img/sobre.jpg);
+    margin-top: 5%;
 }
 
 .tilt1 {
@@ -94,55 +140,58 @@ text-shadow: black 0.1em 0.1em 0.2em;
     margin-top: 3%;
     text-align: center;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 .tilt2 {
     font-family: Muli, serif;
     margin-top: 3%;
     text-align: center;
     font-weight: 600;
-    color: #5C5050;
-    text-shadow: black 0.1em 0.1em 0.9em;
+    color: #566985;
 }
 
 div.txt1 {
     font-family: Muli, serif;
     text-align: center;
     margin-bottom: 5%;
-    
 }
-div.txt1 p{
+
+div.txt1 p {
     font-family: Muli, serif;
     color: #fff;
     font-size: 1.4em;
     max-width: 1000px;
     margin: 0 auto;
 }
-.butp{
-    background:    #f39507;
+
+.butp {
+    background: #f39507;
     border-radius: 26px;
     box-shadow: 0px 0px 0px 2px #ede8e2;
-    padding:       2px 20px;
-    display:       inline-block;
-    font:          normal bold 18px/1 "Open Sans", sans-serif;
-    text-align:    center;
+    padding: 2px 20px;
+    display: inline-block;
+    font: normal bold 18px/1 "Open Sans", sans-serif;
+    text-align: center;
     margin-left: 60%;
     list-style: none;
-    
 }
-.butp:hover{
+
+.butp:hover {
     box-shadow: 0px 0px 0px 3px #f39507;
     list-style: none;
     background-color: #ff6207;
 }
+
 .btn {
     background-color: #ff6207;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #fffbfb;
     color: #ff6207;
     border: 1px solid #ff6207;
 }
+
 .bt1 {
     text-align: center;
     border: none;
@@ -159,7 +208,6 @@ div.txt1 p{
     margin-top: 1%;
     background-color: #ff6207;
     border: 1px solid #ff6207;
-
 }
 
 .fimg {
@@ -171,13 +219,15 @@ div.txt1 p{
     height: 100%;
     padding: 5%;
 }
-.roda{
+
+.roda {
     margin-top: 5%;
     background-color: #f06829;
     height: 170px;
     color: #fff;
     text-align: center;
 }
+
 /*Contatos*/
 
 section.bar {
@@ -248,4 +298,3 @@ a.btn-success:hover {
 }
 
 /*EndContatos*/
-
