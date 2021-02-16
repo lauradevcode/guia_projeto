@@ -57,11 +57,7 @@
               </li>
             <!--  </form>-->
           </div>
-        
         </ul>
-
-     
-
       </div>
       <div class="btn-desktop"> 
         <form class="d-flex " >
@@ -73,7 +69,6 @@
     </div>
   </nav>
   <!-- FIM NAV - TOPO -->
-
   <!-- BANNER CAROUSEL -->
   <header class="position-relative">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -109,52 +104,35 @@
         </div>
       </div>
     </div>
-
 <div class="form-banner position-absolute top-50 start-50 translate-middle-x">
-
 
     <form name="form-banner" action="envia-contato.php" method="post">
       <div class="row ">
 
-        <div class="col-md-3 px-0">
+        <div class="col-md-6 px-0">
           <div class="form-group">
-            <input name="form_nome" id="form_nome" type="text" placeholder="texto" class="form-control" maxlength="40" required="">
+            <input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
           </div>
         </div>
 
-        <div class="col-md-3 px-0">
+        <div class="selc col-md-3 px-0">
          <div class="form-group">     
             <select name="form_origem" id="form_origem" class="form-select">
-              <option value="GOOGLE" selected="selected">Google</option>
-              <option value="FACEBOOK">Facebook</option>
-              <option value="INSTAGRAM">Instagram</option>
-              <option value="FRANQUEADO">Franqueado Ativo</option>
-              <option value="E-MAIL">E-mail promocional</option>
-              <option value="SITES-FRANQUIA">Sites de Franquia</option>
+              <option value="GOOGLE" selected="selected">Categorias:</option>
+              <option value="FACEBOOK">Escolas</option>
+              <option value="INSTAGRAM">Comércios</option>
+              <option value="FRANQUEADO">Bares</option>
+              <option value="E-MAIL">Eventos</option>
             </select>   
          </div>
         </div>
-
-        <div class="col-md-3 px-0">
-          <div class="form-group">     
-             <select name="form_origem" id="form_origem" class="form-select">
-               <option value="GOOGLE" selected="selected">Google</option>
-               <option value="FACEBOOK">Facebook</option>
-               <option value="INSTAGRAM">Instagram</option>
-               <option value="FRANQUEADO">Franqueado Ativo</option>
-               <option value="E-MAIL">E-mail promocional</option>
-               <option value="SITES-FRANQUIA">Sites de Franquia</option>
-             </select>   
-          </div>
-        </div>
-        <div class="col-md-3 px-0">
-          <button type="submit" class="w-100 btn btn-primary">
-            <i class="far fa-envelope"></i> ENVIAR MENSAGEM
+        <div class="selc col-md-2 px-0">
+          <button type="submit" class="w-100 btn btn-primary" style="background-color: #ff6207">
+            <i class="far fa-envelope"></i> ENCONTRAR
           </button>
         </div>
       </div><!--row-->
     </form>
-
     </div>
   </header>
 
@@ -211,7 +189,7 @@
       <div class="flexy card">
         <img src="./img/em3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Porto Empréstimo</h5>
+          <h5 class="card-title">Empréstimo</h5>
         </div>
         <a href="#" class="butC btn btn-primary">ACESSE</a>
       </div>
@@ -226,48 +204,9 @@
       </div>
     </div>
   </div>
-</section><!--empresas-->
+</section><!--Empresas-->
 
-<!--
-  <div class="container-fluid">
-  <h3 class="tilt2">EMPRESAS DESTAQUES</h3>
 
-  <p style="text-align: center;color: #7d93b2;">As melhores aqui!</p>
-  <div class="flexy2 row">
-    <div class="flexy card " style="width: 18rem;">
-      <img src="img/loja1.jpg" class="imgc card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Web Designer</h5>
-        <a href="#" class="butC btn btn-primary">ACESSE</a>
-      </div>
-    </div>
-  
-    <div class="flexy card" style="width: 18rem;">
-      <img src="img/em1.jpg" class="imgc card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Salão Paulista</h5>
-        <a href="#" class="butC btn btn-primary">ACESSE</a>
-      </div>
-    </div>
-    <div class="flexy card" style="width: 18rem;">
-      <img src="img/em2.jpg " class="imgc card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Gráfica JP </h5>
-        <a href="#" class="butC btn btn-primary">ACESSE</a>
-      </div>
-    </div>
-    <div class="flexy card" style="width: 18rem;">
-      <img src="img/em3.jpg" class="imgc card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Porto Empréstimo</h5>
-        <a href="#" class="butC btn btn-primary">ACESSE</a>
-      </div>
-    </div>
-  </div>
--->
-  <!-- CATEGORIAS CARDS-->
-
-    
 <section class="categorias container-fluid">
   <h3 class="tilt2">CATEGORIAS</h3>
   <p style="text-align: center;color: #7d93b2;">Absolutamente tudo que o estado de São Paulo oferece.</p>
@@ -292,7 +231,7 @@
     </div>
     <div class="col">
       <div class="flexy card">
-        <img src="./img/cat4.jpg" class="card-img-top" alt="...">
+        <img src="./img/cat4.jpg" style="height: 270px;" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">EVENTOS</h5>
         </div><!--"card-body-->
@@ -301,7 +240,7 @@
     </div><!--col-->
     <div class="col">
       <div class="flexy card">
-        <img src="./img/cat5.jpg" class="card-img-top" alt="...">
+        <img src="./img/cat5.jpg" style="height: 270px;" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">COMÉRCIOS</h5>
         </div><!--card-body-->
