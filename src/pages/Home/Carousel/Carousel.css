@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Muli;
+    src: url(../../../assets/fonts/ttf/Muli.ttf);
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-item img {
+    filter: brightness(75%);
+}
+
+.carousel-item .carousel-caption {
+    top: 50px;
+    text-shadow: rgb(153, 142, 142) 0.1em 0.1em 0.7em;
+    height: 100px;
+    z-index: 999;
+    font-family: Muli, serif;
+}
+
+.banner-description {
+    text-shadow: rgb(146, 133, 133) 0.1em 0.1em 0.2em;
+    z-index: 999;
+    font-weight: bolder;
+    font-family: Muli, serif;
+    font-size: 22px;
+}
+
+.form-banner {
+    width: 90%;
+    max-width: 750px;
+    margin-left: 50%;
+    margin-top: 300px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.form-banner form .row div {
+    margin: 2px;
+}
+
+.form-banner form .row div:nth-child(3) {
+    margin-top: 4px;
+}
+
+@media (max-width: 441px) {
+    .carousel-item .carousel-caption {
+        top: 0;
+        font-size: 1.2rem
+    }
+
+    .banner-description {
+        font-size: .9rem
+    }
+
+    .form-banner {
+        margin-top: 400px;
+    }
+}
+
+@media (max-width: 610px) {
+    .form-banner {
+        margin-top: 410px;
+    }
+}
