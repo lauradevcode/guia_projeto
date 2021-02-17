@@ -54,7 +54,7 @@
 .tcarou {
     text-shadow: rgb(153, 142, 142) 0.1em 0.1em 0.7em;
     z-index: 999;
-    margin-bottom: 20%;
+    margin-bottom: 1%;
     font-family: Muli, serif;
 }
 
@@ -166,31 +166,28 @@ box-shadow: 7px 6px 14px 1px rgba(54,48,54,1);
     
 }
 .butC{
-border-color:#ff6207; 
-transition: all 150ms ease-in-out;
+
+      border-color: #f39507;
+  background-color: #ff6207;
+  -webkit-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+    font: normal bold 18px/1 "Muli" serif;
+    list-style: none;
+      background-image: -webkit-linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%
 }
 .butC:hover{
-    background-color: #ff6207;
-  box-shadow: 0 0 4px 2px white;
-}
+      list-style: none;
+      background-position: 0;
+      background-color:  #f06829;
+      color:white;
+  }
 .card-title{
 font-family: Muli, serif;
 }
-.imgc {
-    width: 100% !important;
-    height: 100% !important;
-}
-.imgc:hover{
-        -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-        -moz-transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-            box-shadow: 0px 6px 12px 3px rgba(97,88,97,1);
-        -webkit-transform: translateX(-2px);
-        transform: translateX(-2px);
-}
+
 .sob {
     background: url(../img/sobre.jpg);
     margin-top: 5%;
@@ -284,7 +281,7 @@ div.txt1 p {
 .roda {
     margin-top: 5%;
     background-color: #f06829;
-    height: 170px;
+    height: 350px;
     color: #fff;
     text-align: center;
 }
@@ -362,8 +359,25 @@ a.btn-success:hover {
 
 
 /* ASC 15/02*/
-.selc{
+.selc button{
     margin-left: 1%;
+      border-color: #f39507;
+  background-color: #ff6207;
+  -webkit-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+    font: normal bold 18px/1 "Muli" serif;
+    list-style: none;
+      background-image: -webkit-linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+
+}
+.selc button:hover{
+    list-style: none;
+      background-position: 0;
+      background-color:  #f06829;
+      color:white;
 }
 .form-banner{
     width: 90%;
@@ -375,8 +389,25 @@ a.btn-success:hover {
     .form-banner{
         width: 45%;
     }
-    .selc{
+    .selc button{
     margin: 0px;
+     border-color: #f39507;
+  background-color: #ff6207;
+  -webkit-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+    font: normal bold 18px/1 "Muli" serif;
+    list-style: none;
+      background-image: -webkit-linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+  background-image: linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+
+}
+.selc button:hover{
+        list-style: none;
+      background-position: 0;
+      background-color:  #f06829;
+      color: white;
 }
    /* .form-banner .col-md-3{
         margin: 5px 0;
@@ -384,4 +415,3 @@ a.btn-success:hover {
     
 }
 
-/* ASC 15/02*/
