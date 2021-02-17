@@ -1,0 +1,77 @@
+#featured-companies-title {
+    margin-top: 50px;
+    color: #566985;
+    text-align: center;
+}
+
+#featured-companies-subtitle {
+    color: #7d93b2;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.grid-container-featured {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid-container-featured .grid-item {
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    width: 400px;
+    height: 339px;
+    margin: auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid-container-featured .grid-item img {
+    width: 100%;
+    height: 250px;
+}
+
+.grid-container-featured .grid-item .item-title {
+    background-image: linear-gradient( 135deg, #FFE985 10%, #FA742B 100%);
+    text-shadow: rgba(0, 0, 0, .4) 0.1em 0.1em .7em;
+    font-size: .7em;
+    padding: 12px;
+    color: white;
+}
+
+.grid-container-featured .grid-item .btn-access-information {
+    background-color: #ff6207;
+    line-height: 34px;
+    font-size: .6em;
+    height: 34px;
+}
+
+.grid-container-featured .grid-item .btn-access-information:hover {
+    background-color: #ff6e1a;
+}
+
+.grid-container-featured .grid-item .btn-access-information a {
+    position: aboslute;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+@media (max-width: 1720px) {
+    .grid-container-featured {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    .grid-container-featured {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 860px) {
+    .grid-container-featured {
+        grid-template-columns: auto;
+    }
+}
