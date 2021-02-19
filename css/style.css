@@ -281,7 +281,7 @@ div.txt1 p {
 .roda {
     margin-top: 5%;
     background-color: #f06829;
-    height: 350px;
+    height: auto;
     color: #fff;
     text-align: center;
 }
@@ -384,6 +384,58 @@ a.btn-success:hover {
     max-width: 750px;
 }
 
+
+/* ===== FOOTER ===== */
+
+footer{
+	padding: 50px 0px 20px 0px; 
+	position: relative;
+}
+footer .container{
+    padding: 40px 0;
+}
+
+.footer_empresa img{
+margin-bottom: 1.5rem;
+}
+.footer_empresa {
+    display: flex;
+    align-items: center;
+}
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: left;
+	margin: 0px 5px;
+    
+}
+
+footer ul li img{
+    filter: invert(1);
+}
+.footer-widget h3:after{
+    content: '';
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #FFF;
+    margin:.3rem 0 1rem 0;
+  }
+.footer-widget h3,.footer-widget p{
+    text-align: left;
+    margin-left: 2rem;
+}
+.footer-widget a{
+color: #FFF;
+}
+
+.footer_footer{
+    width: 100%;
+    padding: 40px 0px 10px 0px; 
+    border-top: 2px solid #FFF;
+}
 
 @media (max-width: 768px) {
     .form-banner{
