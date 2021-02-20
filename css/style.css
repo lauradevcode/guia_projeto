@@ -148,14 +148,11 @@ body{
 	}
 
 	/* ASC 15/02*/
-/*
-.butp{
-	margin-left: 38%;
-	padding: 2%;
-	}*/
-
-}
 /* ASC 15/02*/
+
+.seltilt{
+	margin-left: 15%;
+}
 @media (max-width: 991.98px) {
 	.btn-mobile{
 		display: block;

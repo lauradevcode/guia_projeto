@@ -17,82 +17,123 @@
 </head>
 
 <body>
-
   <!-- NAV - TOPO -->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="./img/logo-small.png">
-      </a>
+      </a><!--navbar-brand-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Empresas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contato.html" tabindex="-1" aria-disabled="true">Contato</a>
-          </li>
-          <form class="d-flex" style="margin-left:180%;">
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button><!--navbar-toggler-->
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li><!--nav-item-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Empresas</a>
+        </li><!--nav-item-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Eventos</a>
+        </li><!--nav-item-->
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html" tabindex="-1" aria-disabled="true">Contato</a>
+        </li><!--nav-item-->
+
+        <div class=" btn-mobile">
+          <!--  <form class="d-flex" >-->
             <li class="butp nav-item">
               <a class="nav-link" href="" tabindex="-1" aria-disabled="true" style="color: white;">ANUNCIE</a>
-            </li>
-          </form>
-        </ul>
-      </div>
-    </div>
-  </nav>
+            </li><!--butp-->
+            <!--  </form>-->
+          </div><!--btn-mobile-->
+        </ul><!--navbar-nav-->
+      </div><!--collapse-->
+      <div class="btn-desktop"> 
+        <form class="d-flex" >
+          <li class="butp nav-item">
+            <a class="nav-link" href="" tabindex="-1" aria-disabled="true" style="color: white;">ANUNCIE</a>
+          </li><!--butp-->
+        </form><!--d-flex-->
+      </div><!--btn-desktop-->
+    </div><!--container-fluid-->
+  </nav><!--navbar-->
   <!-- FIM NAV - TOPO -->
-<!-- BANNER CAROUSEL -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+  <!-- BANNER CAROUSEL -->
+  <header class="position-relative">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div><!--carousel-indicators-->
+      <div class="carousel-inner">
+        <div class="imgsB carousel-item active">
+          <img src="img/banner3.jpeg" class="d-block w-100" alt="..." style="height: 548px; width: 100%">
+          <div class="tcarou carousel-caption d-none d-md-block">
+            <h1 style="font-size: 3.2rem">Guia Comercial SP</h1>
+            <p class="txtcarou">Encontre Comércio, Escolas e Agências Bancárias</p>
+          </div>
+        </div>
+        <div class="imgsB carousel-item">
+          <img src="img/banner3.jpeg" class="d-block w-100" alt="..." style="height: 548px; width: 100%">
+          <div class="tcarou carousel-caption d-none d-md-block">
+            <h1 style="font-size: 3.2rem">Guia Comercial SP</h1>
+            <p class="txtcarou">Encontre Comércio, Escolas e Agências Bancárias</p>
+          </div>
+        </div>
+        <div class="imgsB carousel-item">
+          <img src="img/banner3.jpeg" class="d-block w-100" alt="..." style="height: 548px; width: 100%">
+          <div class="tcarou carousel-caption d-none d-md-block">
+            <h1 style="font-size: 3.2rem">Guia Comercial SP</h1>
+            <p class="txtcarou">Encontre Comércio, Escolas e Agências Bancárias</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-inner">
-      <div class="imgsB carousel-item active">
-        <img src="img/banner3.jpeg" class="d-block w-100" alt="..." style="height: 548px; width: 100%">
-        <div class="tcarou carousel-caption d-none d-md-block">
-          <h1 style="font-size: 3.2rem">Guia Comercial SP</h1>
-          <p class="txtcarou">Encontre Comércio, Escolas e Agências Bancárias</p>
-        </div>
-      </div>
-      <div class="imgsB carousel-item">
-        <img src="img/banner3.jpeg" class="d-block w-100" alt="..." style="height: 548px; width: 100%">
-        <div class="tcarou carousel-caption d-none d-md-block">
-          <h1 style="font-size: 3.2rem">Guia Comercial SP</h1>
-          <p class="txtcarou">Encontre Comércio, Escolas e Agências Bancárias</p>
-        </div>
-      </div>
-      <div class="imgsB carousel-item">
-        <img src="img/banner3.jpeg" class="d-block w-100" alt="..." style="height: 548px; width: 100%">
-        <div class="tcarou carousel-caption d-none d-md-block">
-          <h1 style="font-size: 3.2rem">Guia Comercial SP</h1>
-          <p class="txtcarou">Encontre Comércio, Escolas e Agências Bancárias</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <div class="form-banner position-absolute top-50 start-50 translate-middle-x" style="margin-left: 1%;margin-top: 5%;">
+
+      <form name="form-banner" action="envia-contato.php" method="post">
+        <div class="row ">
+          <div class="col-md-6 px-0">
+            <div class="form-group">
+              <input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
+            </div><!--form-group-->
+          </div><!--col-md-6-->
+
+          <div class="selc col-md-3 px-0">
+            <div class="form-group">     
+              <select name="form_origem" id="form_origem" class="form-select">
+                <option value="GOOGLE" selected="selected">Categorias:</option>
+                <option value="FACEBOOK">Escolas</option>
+                <option value="INSTAGRAM">Comércios</option>
+                <option value="FRANQUEADO">Bares</option>
+                <option value="E-MAIL">Eventos</option>
+              </select><!--form-select-->
+            </div><!--form-group-->
+          </div><!--selc-->
+
+          <div class="selc col-md-2 px-0">
+            <button type="submit" class="w-100 btn btn-primary">
+              <i class="far fa-envelope"></i> ENCONTRAR
+            </button><!--w-100-->
+          </div><!--selc-->
+        </div><!--row-->
+      </form>
+    </div><!--form-banner-->
+  </header><!--position-relative-->
 
   <!-- FIM BANNER - CAROUSEL -->
 
   <!-- INICIO FORM CONTATO -->
   <div class="container">
-    
+
     <div class="row">
       <div class="col-lg-8">
-     
-    <section class="bar">
+
+        <section class="bar">
 
           <div class="heading">
             <h2>FALE CONOSCO </h2>
@@ -102,123 +143,101 @@
 
           <p class="lead">
             Você gostaria de mais informações sobre o nosso guia? Podemos ajudar com alguma dúvida?
-             Nossa central de atendimento e suporte estará pronta para responder quaisquer dúvidas 
-             ou perguntas sobre nosss serviços e soluções. 
+            Nossa central de atendimento e suporte estará pronta para responder quaisquer dúvidas 
+            ou perguntas sobre nossos serviços e soluções. 
           </p><!--lead-->
-      
-          <div class="heading">
-            <h3>Formulário de Contato</h3>
-            <span></span>
-            <div class="clear"></div>
-          </div><!--heading-->
 
           <form name="formContato" action="envia-contato.php" method="post">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="nome"><b>Nome/Empresa</b></label>
-                  <input name="form_nome" id="form_nome" type="text" class="form-control" maxlength="40" required="">
+                  <input name="form_nome" id="form_nome" type="text" class="form-control" maxlength="40" required="" placeholder="Nome/Empresa">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="cidade"><b>Cidade/Estado</b></label>
-                  <input name="form_cidade" id="form_cidade" type="text" class="form-control" maxlength="35" required="">
+                  <input name="form_cidade" id="form_cidade" type="text" class="form-control" maxlength="35" required="" placeholder="Cidade/Estado">
                 </div>
-              </div>
-             
+              </div> 
               
-     <div class="col-md-6">
+              <div class="col-md-6">
                 <div class="form-group">
-                  <label for="email"><b>E-mail Retorno</b></label>
-                  <input name="form_email" id="form_email" type="email" class="form-control" maxlength="50" required="">
+                  <input name="form_email" id="form_email" type="email" class="form-control" maxlength="50" required="" placeholder="Email">
                 </div>
               </div>
-    
-    
-       <div class="col-md-6">
+
+
+              <div class="col-md-6">
                 <div class="form-group">
-                  <label for="fone"><b>Celular (whatsapp)</b></label>
-                  <input name="form_fone" id="form_fone" type="tel" class="form-control" maxlength="20" required="">
+                  <input name="form_fone" id="form_fone" type="tel" class="form-control" maxlength="20" required="" placeholder="Telefone/Whatsapp">
                 </div>
               </div>
-    
-    
-    
-    
-      <div class="col-md-6">
+
+              <div class="col-md-6" >
                <div class="form-group">
-              
-        <label for="subject"><b>Onde nos encontrou</b></label>
-      
-                  <select name="form_origem" id="form_origem" class="form-select">
-      
-                              <option value="GOOGLE" selected="selected">Google</option>
-            <option value="FACEBOOK">Facebook</option>
-                              <option value="INSTAGRAM">Instagram</option>
-                              <option value="FRANQUEADO">Franqueado Ativo</option>
-                             <option value="E-MAIL">E-mail promocional</option>
-             <option value="SITES-FRANQUIA">Sites de Franquia</option>
-                  </select>
-              
-      </div>
-              </div>
-    
-    
-    
-    
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="message"><b>Mensagem</b></label>
-                  <textarea name="form_mensagem" rows="5" class="form-control" id="form_mensagem" required=""></textarea>
-                </div>
-              </div>
-              <div class="col-md-12 text-center">
-    
-      <!-- Google reCaptcha serie 03-->
-        <div class="g-recaptcha" data-sitekey="6LdVfmMUAAAAAFOWeWpLRMI1M7-SHOajqWoFJPd-" align="center"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdVfmMUAAAAAFOWeWpLRMI1M7-SHOajqWoFJPd-&amp;co=aHR0cHM6Ly93d3cuZ3VpYWNpZGFkZW9ubGluZS5jb20uYnI6NDQz&amp;hl=pt-BR&amp;v=_KUxfxvAoJ4k7SaKyLbja4Mi&amp;size=normal&amp;cb=dpp1b878opwh" role="presentation" name="a-nxqwsrsz6f3o" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" width="304" height="78" frameborder="0"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-       
-       <br>
-       <input type="hidden" name="identificador" value="form_contato" />
-                <button type="submit" class="btn btn-primary">
-                  <i class="far fa-envelope"></i> ENVIAR MENSAGEM
-                </button>
-              </div>
-            </div><!--row-->
-          </form>
-        </section><!--bar-->
-      </div>
 
-      <div class="col-lg-4">
-        <section class="bar mb-0">
-          
-          <h3 class="text-uppercase"><i class="fas fa-map-marker-alt"></i> ENDEREÇO MATRIZ</h3>
-          <p class="text-sm">Rua Itapura 505 - Jardim Paulista <br> CEP 14090-082<br>Ribeirão Preto-SP<br>Brasil</p>
-                  
-          <h3 class="text-uppercase"><i class="fas fa-phone-alt"></i> FONE ATENDIMENTO</h3>
-          <p class="text-muted text-sm">Telefone fixo de atendimento da matriz para franqueados e anunciantes.</p>
-          <p><strong>(16) 3617-1655</strong></p> <br>
-                  
-          <h3 class="text-uppercase"><i class="far fa-comments"></i> CHAT ONLINE</h3>
-          <p class="text-muted text-sm">Acesse nosso atendimento online no canto inferior direito da tela e envie sua mensagem.</p>
-                  
-          <h3 class="text-uppercase"> <i class="fab fa-whatsapp"></i> WHATS APP (VENDAS)</h3>
-          <p class="text-muted text-sm">Para contato direto com nosso consultor franquias ou anúncios solicite atendimento no link abaixo:</p>
-          
-          <div align="center">
-          <a href="https://api.whatsapp.com/send?phone=5516991622244&amp;text=Seja Bem Vindo! Envie Sua Mensagem que em Breve Retornarei..." target="_blank" class="btn btn-success">Conversar WhatsApp</a>
-          </div>
-  
-        </section><!--bar mb-0-->
-      </div><!--col-lg-4-->
+                <label for="subject"><b>Onde nos encontrou</b></label>
+
+                <select name="form_origem" id="form_origem" class="form-select">
+
+                  <option value="GOOGLE" selected="selected">Google</option>
+                  <option value="FACEBOOK">Facebook</option>
+                  <option value="INSTAGRAM">Instagram</option>
+                  <option value="FRANQUEADO">Franqueado Ativo</option>
+                  <option value="E-MAIL">E-mail promocional</option>
+                  <option value="SITES-FRANQUIA">Sites de Franquia</option>
+                </select>
+
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="message"><b>Mensagem</b></label>
+                <textarea name="form_mensagem" rows="5" class="form-control" id="form_mensagem" required=""></textarea>
+              </div>
+            </div>
+            <div class="col-md-12 text-center">
+
+              <!-- Google reCaptcha serie 03-->
+              <div class="g-recaptcha" data-sitekey="6LdVfmMUAAAAAFOWeWpLRMI1M7-SHOajqWoFJPd-" align="center"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdVfmMUAAAAAFOWeWpLRMI1M7-SHOajqWoFJPd-&amp;co=aHR0cHM6Ly93d3cuZ3VpYWNpZGFkZW9ubGluZS5jb20uYnI6NDQz&amp;hl=pt-BR&amp;v=_KUxfxvAoJ4k7SaKyLbja4Mi&amp;size=normal&amp;cb=dpp1b878opwh" role="presentation" name="a-nxqwsrsz6f3o" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" width="304" height="78" frameborder="0"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+
+              <br>
+              <input type="hidden" name="identificador" value="form_contato" />
+              <button type="submit" class="btn btn-primary">
+                <i class="far fa-envelope"></i> ENVIAR MENSAGEM
+              </button>
+            </div>
+          </div><!--row-->
+        </form>
+      </section><!--bar-->
     </div>
-  
-    </div>
- 
 
- 
+    <div class="col-lg-4">
+      <section class="bar mb-0">
 
- 
+        <h3 class="text-uppercase"><i class="fas fa-map-marker-alt"></i> ENDEREÇO MATRIZ</h3>
+        <p class="text-sm">R. José Mascarenha <br> CEP: 03515-000<br>Vila Aricanduva-SP<br></p>
+
+        <h3 class="text-uppercase"><i class="fas fa-phone-alt"></i> FONE ATENDIMENTO</h3>
+        <p class="text-muted text-sm">Telefone fixo de atendimento da matriz para franqueados e anunciantes.</p>
+        <p><strong>(xx) xxxx-xxxx</strong></p> <br>
+
+        <h3 class="text-uppercase"><i class="far fa-comments"></i> CHAT ONLINE</h3>
+        <p class="text-muted text-sm">Acesse nosso atendimento online no canto inferior direito da tela e envie sua mensagem.</p>
+
+        <h3 class="text-uppercase"> <i class="fab fa-whatsapp"></i> WHATS APP (VENDAS)</h3>
+        <p class="text-muted text-sm">Para contato direto com nosso consultor franquias ou anúncios solicite atendimento no link abaixo:</p>
+
+        <div align="center">
+          <a href="https://api.whatsapp.com/send?phone=5561999077652&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20o%20or%C3%A7amento%20para%20esse%20servi%C3%A7o%3A" target="_blank" class="btn btn-success">Conversar WhatsApp</a>
+        </div>
+
+      </section><!--bar mb-0-->
+    </div><!--col-lg-4-->
+  </div>
+</div>
+
 </body>
 
 </html>
