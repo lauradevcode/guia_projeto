@@ -189,8 +189,8 @@ body{
 }
 
 .sob {
-	background: url(../img/sobre.jpg);
-	margin-top: 5%;
+	background-image: url('../img/sobre.jpg');
+	
 }
 
 .tilt1 {
