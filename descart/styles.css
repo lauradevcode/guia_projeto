@@ -1,0 +1,105 @@
+@font-face {
+	font-family: Muli;
+	src: url(../fonts/Muli/Muli.ttf)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	outline: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ===== nav ===== */
+nav{
+  background-color:  #f06829;
+}
+.navbar .navbar-nav {
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	font-size: 1rem;
+	font-weight: 600;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #f1c40f;
+}
+
+.btn-outline-warning{
+  border: 1px solid rgba(204, 204, 204, 0.301);
+	background-color: #ff6027;
+	-webkit-transition: background 400ms ease-in-out;
+	transition: background 400ms ease-in-out;
+	font: normal bold 18px/1 "Muli" serif;
+	background-image: -webkit-linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+	background-image: linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+	background-position: 100%;
+	background-size: 400%;
+  color:white;
+}
+
+.btn-outline-warning:hover{
+	background-position: 0;
+	background-color:  #f06829;
+	color:white;
+}
+
+/* ===== carousel ===== */
+.carousel-item img {
+	filter: brightness(99%);
+}
+.carousel-caption{
+  text-shadow: 0.1em 0.1em 0.7em rgb(153, 142, 142) ;
+	font-family: Muli, serif;
+}
+
+
+/* ===== mensagem ===== */
+.mensagem{
+  background-color:  #f06829;
+}
+
+.mensagem h1, .mensagem p{
+  color: white;
+}
+
+/* ===== card ===== */
+.card{
+	-webkit-box-shadow: 7px 6px 14px 1px rgba(54,48,54,1);
+		-moz-box-shadow: 7px 6px 14px 1px rgba(54,48,54,1);
+		box-shadow: 7px 6px 14px 1px rgba(54,48,54,1);
+		font-family: Muli, serif;
+		color: white;
+		font-weight: 800;
+		text-shadow: black 0.1em 0.1em 0.7em;
+		background-image: linear-gradient( 135deg, #FFE985 10%, #FA742B 100%);
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+	background-color: #f06829;
+}
+
+footer h5{
+  color: #FFF;
+}
+footer .list-unstyled {
+  color: #FFF;
+
+}
+
+footer .list-unstyled a{
+  color: #312a2a;
+  text-decoration: underline;
+}
