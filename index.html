@@ -23,27 +23,27 @@
 
 
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
+		/* Carousel base class */
+		.carousel {
+			margin-bottom: 4rem;
+		}
+		/* Since positioning the image, we need to help out the caption */
+		.carousel-caption {
+			bottom: 3rem;
+			z-index: 10;
+		}
 
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
-}
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
+		/* Declare heights because of positioning of img element */
+		.carousel-item {
+			height: 32rem;
+		}
+		.carousel-item > img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			height: 32rem;
+		}
 
 		@media (min-width: 768px) {
 			.bd-placeholder-img-lg {
@@ -59,17 +59,17 @@
 
 <body>
 
-	   
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-				<img src="./img/logo-small.png">
-			</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
+
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./img/logo-small.png">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-md-center" id="navbarCollapse">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -83,385 +83,383 @@
 						<li class="nav-item">
 							<a class="nav-link" href="contato.html">Contato</a>
 						</li><!--nav-item-->
-        </ul>
-				<form class="d-flex d-md-none ">
-					<button class="btn btn-outline-warning w-100" type="submit">ANUNCIE</button>
+					</ul>
+					<form class="d-flex d-md-none ">
+						<button class="btn btn-outline-warning w-100" type="submit">ANUNCIE</button>
+					</form>
+				</div>
+				<form class="d-flex d-none d-md-block">
+					<button class="btn btn-outline-warning" type="submit">ANUNCIE</button>
 				</form>
-      </div>
-			<form class="d-flex d-none d-md-block">
-				<button class="btn btn-outline-warning" type="submit">ANUNCIE</button>
-			</form>
-    </div>
-  </nav>
-</header>
+			</div>
+		</nav>
+	</header>
 
 
-<main>
+	<main>
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-			
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-				<img src="./img/banner3.jpeg" alt="">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Guia Comercial SP</h1>
-            <p>Encontre Comércio, Escolas e Agências Bancárias</p>
-				
-						<form name="form-banner" action="envia-contato.php" method="post">
-							<div class="row ">
-								<div class="col-md-6 px-0">
-									<div class="form-group">
-										<input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
-									</div><!--form-group-->
-								</div><!--col-md-6-->
-			
-								<div class="selc col-md-3 px-0">
-									<div class="form-group">     
-										<select name="form_origem" id="form_origem" class="form-select">
-											<option value="GOOGLE" selected="selected">Categorias:</option>
-											<option value="FACEBOOK">Escolas</option>
-											<option value="INSTAGRAM">Comércios</option>
-											<option value="FRANQUEADO">Bares</option>
-											<option value="E-MAIL">Eventos</option>
-										</select><!--form-select-->
-									</div><!--form-group-->
-								</div><!--selc-->
-			
-								<div class="selc col-md-3 px-0">
-									<button type="submit" class="w-100 btn btn-outline-warning">
-										<i class="far fa-envelope"></i> ENCONTRAR
-									</button><!--w-100-->
-								</div><!--selc-->
-							</div><!--row-->
-						</form>
-          </div>
-        </div>
-      </div>
-			
-      <div class="carousel-item">
-				<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-				<img src="./img/banner3.jpeg" alt="">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Guia Comercial SP</h1>
-            <p>Encontre Comércio, Escolas e Agências Bancárias</p>
-						<form name="form-banner" action="envia-contato.php" method="post">
-							<div class="row ">
-								<div class="col-md-6 px-0">
-									<div class="form-group">
-										<input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
-									</div><!--form-group-->
-								</div><!--col-md-6-->
-			
-								<div class="selc col-md-3 px-0">
-									<div class="form-group">     
-										<select name="form_origem" id="form_origem" class="form-select">
-											<option value="GOOGLE" selected="selected">Categorias:</option>
-											<option value="FACEBOOK">Escolas</option>
-											<option value="INSTAGRAM">Comércios</option>
-											<option value="FRANQUEADO">Bares</option>
-											<option value="E-MAIL">Eventos</option>
-										</select><!--form-select-->
-									</div><!--form-group-->
-								</div><!--selc-->
-			
-								<div class="selc col-md-3 px-0">
-									<button type="submit" class="w-100 btn btn-outline-warning">
-										<i class="far fa-envelope"></i> ENCONTRAR
-									</button><!--w-100-->
-								</div><!--selc-->
-							</div><!--row-->
-						</form>
-				
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-				<img src="./img/banner3.jpeg" alt="">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Guia Comercial SP</h1>
-            <p>Encontre Comércio, Escolas e Agências Bancárias</p>
-						<form name="form-banner" action="envia-contato.php" method="post">
-							<div class="row ">
-								<div class="col-md-6 px-0">
-									<div class="form-group">
-										<input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
-									</div><!--form-group-->
-								</div><!--col-md-6-->
-			
-								<div class="selc col-md-3 px-0">
-									<div class="form-group">     
-										<select name="form_origem" id="form_origem" class="form-select">
-											<option value="GOOGLE" selected="selected">Categorias:</option>
-											<option value="FACEBOOK">Escolas</option>
-											<option value="INSTAGRAM">Comércios</option>
-											<option value="FRANQUEADO">Bares</option>
-											<option value="E-MAIL">Eventos</option>
-										</select><!--form-select-->
-									</div><!--form-group-->
-								</div><!--selc-->
-			
-								<div class="selc col-md-3 px-0">
-									<button type="submit" class="w-100 btn btn-outline-warning">
-										<i class="far fa-envelope"></i> ENCONTRAR
-									</button><!--w-100-->
-								</div><!--selc-->
-							</div><!--row-->
-						</form>
-				
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span8>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
 
-<!-- ==== mensagem ==== -->
-	<section class="mensagem py-5 text-center">
-		<div class="container">
-			<div class="row py-lg-5">
-				<div class="col-lg-8 col-md-8 mx-auto">
-					<h1 class="fw-light">NOSSO GUIA DE VANTAGENS</h1>
-					<p class="lead">	
-						O Guia Cidade Online foi criado para facilitar a sua procura por empresas,
-						profissionais, serviços, produtos, mapas e locais, notícias, eventos, avaliações, descontos e ofertas,
-						sorteios,
-						vagas de empregos, banco de currículos e muito mais. Encontre tudo o que você estiver procurando
-						em qualquer uma das cidades da nossa rede!
-					</p>
+				<div class="carousel-item active">
+					<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+					<img src="./img/banner3.jpeg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Guia Comercial SP</h1>
+							<p>Encontre Comércio, Escolas e Agências Bancárias</p>
+
+							<form name="form-banner" action="envia-contato.php" method="post">
+								<div class="row ">
+									<div class="col-md-6 px-0">
+										<div class="form-group">
+											<input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
+										</div><!--form-group-->
+									</div><!--col-md-6-->
+
+									<div class="selc col-md-3 px-0">
+										<div class="form-group">     
+											<select name="form_origem" id="form_origem" class="form-select">
+												<option value="GOOGLE" selected="selected">Categorias:</option>
+												<option value="FACEBOOK">Escolas</option>
+												<option value="INSTAGRAM">Comércios</option>
+												<option value="FRANQUEADO">Bares</option>
+												<option value="E-MAIL">Eventos</option>
+											</select><!--form-select-->
+										</div><!--form-group-->
+									</div><!--selc-->
+
+									<div class="selc col-md-3 px-0">
+										<button type="submit" class="w-100 btn btn-outline-warning">
+											<i class="far fa-envelope"></i> ENCONTRAR
+										</button><!--w-100-->
+									</div><!--selc-->
+								</div><!--row-->
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+					<img src="./img/banner3.jpeg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Guia Comercial SP</h1>
+							<p>Encontre Comércio, Escolas e Agências Bancárias</p>
+							<form name="form-banner" action="envia-contato.php" method="post">
+								<div class="row ">
+									<div class="col-md-6 px-0">
+										<div class="form-group">
+											<input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
+										</div><!--form-group-->
+									</div><!--col-md-6-->
+
+									<div class="selc col-md-3 px-0">
+										<div class="form-group">     
+											<select name="form_origem" id="form_origem" class="form-select">
+												<option value="GOOGLE" selected="selected">Categorias:</option>
+												<option value="FACEBOOK">Escolas</option>
+												<option value="INSTAGRAM">Comércios</option>
+												<option value="FRANQUEADO">Bares</option>
+												<option value="E-MAIL">Eventos</option>
+											</select><!--form-select-->
+										</div><!--form-group-->
+									</div><!--selc-->
+
+									<div class="selc col-md-3 px-0">
+										<button type="submit" class="w-100 btn btn-outline-warning">
+											<i class="far fa-envelope"></i> ENCONTRAR
+										</button><!--w-100-->
+									</div><!--selc-->
+								</div><!--row-->
+							</form>
+
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="./img/banner3.jpeg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Guia Comercial SP</h1>
+							<p>Encontre Comércio, Escolas e Agências Bancárias</p>
+							<form name="form-banner" action="envia-contato.php" method="post">
+								<div class="row ">
+									<div class="col-md-6 px-0">
+										<div class="form-group">
+											<input name="form_nome" id="form_nome" type="text" placeholder="Pesquisar" class="form-control" maxlength="40" required="">
+										</div><!--form-group-->
+									</div><!--col-md-6-->
+
+									<div class="selc col-md-3 px-0">
+										<div class="form-group">     
+											<select name="form_origem" id="form_origem" class="form-select">
+												<option value="GOOGLE" selected="selected">Categorias:</option>
+												<option value="FACEBOOK">Escolas</option>
+												<option value="INSTAGRAM">Comércios</option>
+												<option value="FRANQUEADO">Bares</option>
+												<option value="E-MAIL">Eventos</option>
+											</select><!--form-select-->
+										</div><!--form-group-->
+									</div><!--selc-->
+
+									<div class="selc col-md-3 px-0">
+										<button type="submit" class="w-100 btn btn-outline-warning">
+											<i class="far fa-envelope"></i> ENCONTRAR
+										</button><!--w-100-->
+									</div><!--selc-->
+								</div><!--row-->
+							</form>
+
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-  </section>
-
-
-<section class="empresas py-5">
-
-	<section class="py-2 text-center container">
-    <div class="row py-lg-2">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">EMPRESAS DESTAQUES</h1>
-        <p class="lead text-muted">As melhores aqui!</p>
-      </div>
-    </div>
-  </section>
-
-
-	<div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
-        <div class="col">
-          <div class="card shadow-sm">
-						<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/em1.jpg" class="imgc card-img-top"  alt="...">
-            <div class="card-body text-center">
-              <p class="card-text">Salão Paulista</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-          	<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/em2.jpg" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">Gráfica JP</p>
-              <div class="d-flex justify-content-between align-items-center">
-               
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-						<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/em3.jpg" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">Empréstimo</p>
-              <div class="d-flex justify-content-between align-items-center">
-               
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-						<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/loja1.jpg" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">Web Designer</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-              
-              </div>
-            </div>
-          </div>
-        </div>
-				
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="categorias">
-	<section class="py-2 text-center container">
-    <div class="row py-lg-2">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">CATEGORIAS</h1>
-        <p class="lead text-muted">	Absolutamente tudo que o estado de São Paulo oferece.</p>
-      </div>
-    </div>
-  </section>
-
-	<div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
-        <div class="col">
-          <div class="card shadow-sm">
-						<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat1.jpg" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">ESCOLAS</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-          	<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat3.webp" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">BARES</p>
-              <div class="d-flex justify-content-between align-items-center">
-               
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-						<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat4.jpg" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">EVENTOS</p>
-              <div class="d-flex justify-content-between align-items-center">
-               
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-						<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat5.jpg" class="imgc card-img-top"  alt="...">
-
-            <div class="card-body text-center">
-              <p class="card-text">COMÉRCIOS</p>
-              <div class="d-flex justify-content-between align-items-center">
-                
-              <button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-				
-      </div>
-    </div>
-  </div>
-</section>
-
-
-</main>
-
-
-<footer class="py-5">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md">
-				<img src="./img/logo-small.png" alt="">
-				<small class="d-block mb-3" style="color: #FFF;" >&copy; 2021 GUIA SP - Todos os direitos reservados</small>
+			<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span8>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
 
-			<div class="col-12 col-md">
-				<h5>Guia SP</h5>
-				<ul class="list-unstyled text-small">
-					<li>
-						O melhor e mais completo <strong>Guia comercial de São Paulo</strong>.
-						<br>Comércio, Bares, Escolas e Eventos a um clique.<br>
-						<a href="/anunciar" title="anuncie no portal de classificados">
-							Anuncie no Nosso Guia
-						</a>! 
-						Sua marca aparecerá em destaque para mais de 500.000 usuários diariamente.
-					</li>
-				</ul>
+			<!-- ==== mensagem ==== -->
+			<section class="mensagem py-5 text-center">
+				<div class="container">
+					<div class="row py-lg-5">
+						<div class="col-lg-8 col-md-8 mx-auto">
+							<h1 class="fw-light">NOSSO GUIA DE VANTAGENS</h1>
+							<p class="lead">	
+								O Guia Cidade Online foi criado para facilitar a sua procura por empresas,
+								profissionais, serviços, produtos, mapas e locais, notícias, eventos, avaliações, descontos e ofertas,
+								sorteios,
+								vagas de empregos, banco de currículos e muito mais. Encontre tudo o que você estiver procurando
+								em qualquer uma das cidades da nossa rede!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="empresas py-5">
+
+				<section class="py-2 text-center container">
+					<div class="row py-lg-2">
+						<div class="col-lg-6 col-md-8 mx-auto">
+							<h1 class="fw-light">EMPRESAS DESTAQUES</h1>
+							<p class="lead text-muted" style="margin-top: 5%">As melhores aqui!</p>
+						</div>
+					</div>
+				</section>
+
+
+				<div class="album py-5 bg-light">
+					<div class="container">
+						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/em1.jpg" class="imgc card-img-top"  alt="...">
+									<div class="card-body text-center">
+										<p class="card-text">Salão Paulista</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/em2.jpg" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">Gráfica JP</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/em3.jpg" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">Empréstimo</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/loja1.jpg" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">Web Designer</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="categorias">
+				<section class="py-2 text-center container">
+					<div class="row py-lg-2">
+						<div class="col-lg-6 col-md-8 mx-auto">
+							<h1 class="fw-light">CATEGORIAS</h1>
+							<p class="lead text-muted">	Absolutamente tudo que o estado de São Paulo oferece.</p>
+						</div>
+					</div>
+				</section>
+
+				<div class="album py-5 bg-light">
+					<div class="container">
+
+						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat1.jpg" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">ESCOLAS</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat3.webp" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">BARES</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat4.jpg" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">EVENTOS</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="card shadow-sm">
+									<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/cat5.jpg" class="imgc card-img-top"  alt="...">
+
+									<div class="card-body text-center">
+										<p class="card-text">COMÉRCIOS</p>
+										<div class="d-flex justify-content-between align-items-center">
+
+											<button type="button" class="btn btn-md btn-outline-warning w-100">ACESSE</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</main>
+
+
+		<footer class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md">
+						<img src="./img/logo-small.png" alt="">
+						<small class="d-block mb-3" style="color: #FFF;" >&copy; 2021 GUIA SP - Todos os direitos reservados</small>
+					</div>
+
+					<div class="col-12 col-md">
+						<h5>Guia SP</h5>
+						<ul class="list-unstyled text-small">
+							<li>
+								O melhor e mais completo <strong>Guia comercial de São Paulo</strong>.
+								<br>Comércio, Bares, Escolas e Eventos a um clique.<br>
+								<a href="/anunciar" title="anuncie no portal de classificados">
+									Anuncie no Nosso Guia
+								</a>! 
+								Sua marca aparecerá em destaque para mais de 500.000 usuários diariamente.
+							</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md">
+						<h5>Contatos</h5>
+						<ul class="list-unstyled text-small">
+							<li>
+								<span><i class="fas fa-envelope"></i> Email :</span>
+								<a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp" target="_system">contato@guiasp.com.br</a>			
+							</li>
+
+							<li>
+								<span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
+								<a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia" target="_system">(13)99759-9709</a>
+							</li>
+
+							<li>
+								<span><i class="fas fa-globe"></i> Website :</span>
+								<a href="http://www.nossoguiasp.com.br/" title="classificados gratuitos">www.nossoguiasp.com.br</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
 			</div>
-			<div class="col-12 col-md">
-				<h5>Contatos</h5>
-				<ul class="list-unstyled text-small">
-					<li>
-						<span><i class="fas fa-envelope"></i> Email :</span>
-						<a href="mailto:contato@nossoguiasp.com.br" title="email do nosso guia sp" target="_system">contato@guiasp.com.br</a>			
-					</li>
-
-					<li>
-						<span><i class="fab fa-whatsapp-square"></i> Whatsapp :</span>
-						<a href="https://api.whatsapp.com/send?phone=5513997599709&amp;text=Contato%20Nosso%20Guia" target="_system">(13)99759-9709</a>
-					</li>
-
-					<li>
-						<span><i class="fas fa-globe"></i> Website :</span>
-						<a href="http://www.nossoguiasp.com.br/" title="classificados gratuitos">www.nossoguiasp.com.br</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	
-	</div>
-</footer>
+		</footer>
 
 
-	<!-- ==== Bootstrap v5 ==== -->
-	<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!-- ==== Bootstrap v5 ==== -->
+		<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
-</html>
+	</body>
+	</html>
