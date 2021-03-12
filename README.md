@@ -7,7 +7,7 @@ Guia para pequenas, médias e grandes empresas de SP, focada em guiar pessoas da
 1. Html5, Css3, Bootstrap5
 2. Php7 no Backend
 3. PostgreSQL no Banco de dados
-4. 
+
 ------- Etapas para concluir:
 
 1. Estilizar a aba Contato
