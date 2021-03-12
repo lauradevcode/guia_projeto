@@ -14,4 +14,4 @@ Guia para pequenas, médias e grandes empresas de SP, focada em guiar pessoas da
 2. Construir a aba Planos
 
 
- Guia comercial Online - CEO: @lauracodedev
+ 
