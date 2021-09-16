@@ -72,7 +72,7 @@ nav{
 }
 
 .btn-outline-warning{
-  border: 1px solid rgba(204, 204, 204, 0.301);
+  border: 0px solid rgba(204, 204, 204, 0.301);
 	background-color: #ff6027;
 	-webkit-transition: background 400ms ease-in-out;
 	transition: background 400ms ease-in-out;
@@ -82,6 +82,7 @@ nav{
 	background-position: 100%;
 	background-size: 400%;
   color:white;
+
 }
 
 .btn-outline-warning:hover{
@@ -137,6 +138,13 @@ footer .list-unstyled {
 }
 
 footer .list-unstyled a{
-  color: #312a2a;
+  color: rgba(255, 255, 255, 0.51);
   text-decoration: underline;
+}
+
+.sub-footer {
+	background-color: #962f00;
+	float: left;
+	width: 100%;
+	text-align: center;
 }
