@@ -54,7 +54,7 @@ a{
 
 /* ===== nav ===== */
 nav{
-  background-color:  #f06829;
+  background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 }
 .navbar .navbar-nav {
   text-align: center;
@@ -72,13 +72,13 @@ nav{
 }
 
 .btn-outline-warning{
-  border: 0px solid rgba(204, 204, 204, 0.301);
+  border: 2px solid rgba(204, 204, 204, 0.301);
 	background-color: #ff6027;
 	-webkit-transition: background 400ms ease-in-out;
 	transition: background 400ms ease-in-out;
 	font: normal bold 18px/1 "Muli" serif;
-	background-image: -webkit-linear-gradient(55deg, #f1c40f 50%, transparent 50%);
-	background-image: linear-gradient(55deg, #f1c40f 50%, transparent 50%);
+	background-image: -webkit-linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
+  background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 	background-position: 100%;
 	background-size: 400%;
   color:white;
@@ -87,7 +87,7 @@ nav{
 
 .btn-outline-warning:hover{
 	background-position: 0;
-	background-color:  #f06829;
+	background-color: #F6416C;
 	color:white;
 }
 
@@ -103,7 +103,7 @@ nav{
 
 /* ===== mensagem ===== */
 .mensagem{
-  background-color:  #f06829;
+  background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 }
 
 .mensagem h1, .mensagem p{
@@ -119,13 +119,13 @@ nav{
 		color: white;
 		font-weight: 800;
 		text-shadow: black 0.1em 0.1em 0.7em;
-		background-image: linear-gradient( 135deg, #FFE985 10%, #FA742B 100%);
+  	background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
 }
 
 /* ===== FOOTER ===== */
 
 footer {
-	background-color: #f06829;
+  background-image: linear-gradient( 135deg, #f74540 10%, #f1be0c 100%);
 	margin-top: 3%;
 }
 
