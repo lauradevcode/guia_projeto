@@ -11,7 +11,7 @@ Guia para pequenas, médias e grandes empresas de SP, focada em guiar pessoas da
 ------- Etapas para concluir:
 
 1. Estilizar a aba Contato
-2. Construir a aba Planos
+2. Construir as outras abas
 
 
  
